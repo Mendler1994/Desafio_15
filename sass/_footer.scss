@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    color: $blanco;
+    height: 100px;
+    padding-left: 50px;
+    margin-top: 25px;
+    min-width: 400px;
+
+    img{
+        margin-top: 35px;
+        margin-right: 10px;
+        width: 30px;
+        height:30px;
+    }
+}

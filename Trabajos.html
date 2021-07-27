@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galeria de trabajos</title>
+    <!--Bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--llamado al css-->
+        <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <!--Descripción de navegador-->
+        <meta name="description" content="descripción que aparece en la busqueda del navegador">
+        <meta name="keywords" content="html, developer, css, diseño web, js, java script, Mendler, Fernando, diseño, desarrollo web, desarrollador, trabajos, portfolio">
+    <!--Fuentes tipográficas-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a id="logo" class="navbar-brand" href="index.html">Mendler</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Sobre_mi.html">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="trabajos.html">Trabajos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="CV.html">Conocimientos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main id=trabajos>
+        <section id="carousel-container" class="container-fluid">
+            <div class="row-cols-1">
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Vectoreo</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="galeria" class="container-fluid bg-dark">
+            <article>
+                <div class="text-center pt-5">
+                    <h1>Trabajos</h1>
+                    <p>Estos son algunos de mis trabajos como diseñador y comunicador visual</p>
+                </div> 
+
+                <div class="row"> <!--reemplazar imagenes-->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" alt="Imagen de la galería">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" alt="Imagen de la galería">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" alt="Imagen de la galería">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" alt="Imagen de la galería">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" alt="Imagen de la galería">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" alt="Imagen de la galería">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" alt="Imagen de la galería">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="Recursos/Trabajos/IMG-Ejemplo.jpg" alt="Imagen de la galería">
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="bg-dark"> 
+        
+        <a href="https://www.facebook.com/" target="_blank"><img src="Recursos/appicon-fb.png" alt="Logo de Facebook" id="logofb"></a>
+    	<a href="https://twitter.com/" target="_blank"><img src="Recursos/appicon-tw.png" alt="Logo de Twitter"></a>
+    	<a href="https://www.instagram.com/"  target="_blank"><img src="Recursos/appicon-fb.png" alt="Logo de Instagram"></a>
+	    <a href="https:www.behance.net" target="_blank"><img src="Recursos/appicon-fb.png" alt="Logo de Behance"></a>
+        
+    </footer>
+<!--Bootstrap-->    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</body>
+</html>

@@ -1,0 +1,18 @@
+/*importar a aestilos.scss*/
+
+@mixin titulos {
+    /*Definir valores reales*/
+    background-color: $blanco;
+    font-family: raleway;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+@mixin parrafos {
+    /*definir valores reales*/
+
+    background-color: $blanco;
+    font-family: asap;
+    font-size: 15px;
+    font-weight: 400;
+}

@@ -1,0 +1,21 @@
+#logo{ /*hacer hover*/
+    font-family: raleway;
+	font-weight: 600;
+	font-size: 25px;
+	font-style: oblique;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 400px;
+    
+    ul{
+        li{
+        margin: right;
+        text-align: center;
+	    font-weight: 600;
+	    font-family: asap;
+        }
+    }
+}

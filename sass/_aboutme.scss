@@ -1,0 +1,33 @@
+.card-body{
+    margin: 0px 25px 40px 25px;
+    padding: 26px;
+}
+
+.card{
+    margin-top: 2%;
+}
+
+#skills{
+    justify-content: center;
+    padding: auto;
+    margin: 25px 25px 40px 25px;
+    padding: 26px;
+    min-width: 300px;
+
+    h1{
+        color: $blanco;
+        font-family: asap;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    img{
+        width: 80px;
+	    height: auto;
+	    margin: 10px;
+    }
+
+    article{
+        min-width: 235px;
+    }
+}

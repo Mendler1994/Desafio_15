@@ -1,0 +1,24 @@
+.carousel{
+    margin-bottom: 3%;
+}
+
+#galeria{
+
+    border-radius: 3%;
+
+    img{
+        width: 100%;
+	    margin-bottom: 15px;
+    }
+
+    img:hover{
+        cursor: pointer;
+        border: 4px pointer $blanco;
+    }
+
+    h1, p{
+        display: flex;
+        justify-content: center;
+    }
+
+}

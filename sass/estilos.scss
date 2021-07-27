@@ -1,0 +1,45 @@
+@import "colores";
+@import "header";
+@import "footer";
+@import "aboutme";
+@import "galeria";
+@import "CV";
+
+
+main{
+    display:flex; 
+    justify-content: center;
+    margin-top: 2%;
+    min-width: 350px;
+    min-height: 100%;
+}
+
+article{
+    color: $blanco;
+    border: solid 2px $blanco;
+    border-radius: 3%;
+    margin: 25px 25px 40px 25px;
+    padding: 26px;
+    justify-content: center;
+}
+
+#bienvenidos{ 
+    font-family: asap;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 2%;
+    min-width: 350px;
+
+
+    article{
+        margin-top: 4%;
+        min-width: 300px;
+        padding: 40px;
+
+        p{
+            font-family: raleway;
+            font-weight:400;
+            font-size: 17px;
+        }
+    }
+}
